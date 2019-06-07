@@ -5,4 +5,4 @@
 Link to the exercise in Lab 3.  https://azurecitadel.com/automation/terraform/lab3/
 
 
-Chanage 2
+Change 3
