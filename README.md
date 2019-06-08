@@ -8,4 +8,4 @@ Run the follwoing commands:
 az login
 az account set --subscription "Testing"
 
-Don't forget to include a .git ignore file to prevent sensitive files from being uploaded to GitHub.
+Don't forget to include a .gitignore file to prevent sensitive files from being uploaded to GitHub.
