@@ -5,5 +5,11 @@ variable "loc" {
 
 variable "tags" {
     default     = {
-    source  = "citadel"
- 
+        source  = "citadel"
+        env     = "training"
+    }
+}
+
+variable "webapplocs" {
+    default     = []
+}
