@@ -1,15 +1,15 @@
+variable "rg" {
+    default = "terraform-lab2"
+}
+
 variable "loc" {
-    description = "Default Azure region"
-    default     =   "westeurope"
+    default = "West Europe"
 }
 
 variable "tags" {
-    default     = {
-        source  = "citadel"
-        env     = "training"
+    type = "map"
+    default = {
+        environment = "training"
+        source      = "citadel"
     }
-}
-
-variable "webapplocs" {
-    default     = []
 }
