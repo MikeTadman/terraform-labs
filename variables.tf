@@ -1,5 +1,5 @@
 variable "rg" {
-    default = "terraform-lab2"
+    default = "rg-terraform-lab2"
 }
 
 variable "loc" {
@@ -10,6 +10,6 @@ variable "tags" {
     type = "map"
     default = {
         environment = "training"
-        source      = "citadel"
+        source      = "terraform"
     }
 }
